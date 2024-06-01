@@ -23,7 +23,7 @@ const btnMagneto = document.querySelector('.button-magneto');
 btnCyclops.addEventListener('click', async() => {
     try {
         
-        const APIResponse = await fetch(`http://localhost:3000/1`);
+        const APIResponse = await fetch(`https://super-space-tribble-g479vw45699cp65-3000.app.github.dev/1`);
         
         if (APIResponse.status == 200){
         
@@ -44,7 +44,7 @@ btnCyclops.addEventListener('click', async() => {
 
 btnWolverine.addEventListener('click', async () => {
     try {
-        const APIResponse = await fetch('http://localhost:3000/2');
+        const APIResponse = await fetch('https://super-space-tribble-g479vw45699cp65-3000.app.github.dev/2');
         if (APIResponse.status == 200){
         
             const data = await APIResponse.json();
@@ -65,7 +65,7 @@ btnWolverine.addEventListener('click', async () => {
 
 btnRouge.addEventListener('click', async () => {
     try {
-        const APIResponse = await fetch('http://localhost:3000/3');
+        const APIResponse = await fetch('https://super-space-tribble-g479vw45699cp65-3000.app.github.dev/3');
         if (APIResponse.status == 200){
         
             const data = await APIResponse.json();
@@ -85,7 +85,7 @@ btnRouge.addEventListener('click', async () => {
 
 btnStorm.addEventListener('click', async () => {
     try {
-        const APIResponse = await fetch('http://localhost:3000/4');
+        const APIResponse = await fetch('https://super-space-tribble-g479vw45699cp65-3000.app.github.dev/4');
         if (APIResponse.status == 200){
         
             const data = await APIResponse.json();
@@ -105,7 +105,7 @@ btnStorm.addEventListener('click', async () => {
 
 btnBeast.addEventListener('click', async () => {
     try {
-        const APIResponse = await fetch('http://localhost:3000/5');
+        const APIResponse = await fetch('https://super-space-tribble-g479vw45699cp65-3000.app.github.dev/5');
         if (APIResponse.status == 200){
         
             const data = await APIResponse.json();
@@ -125,7 +125,7 @@ btnBeast.addEventListener('click', async () => {
 
 btnGambit.addEventListener('click', async () => {
     try {
-        const APIResponse = await fetch('http://localhost:3000/6');
+        const APIResponse = await fetch('https://super-space-tribble-g479vw45699cp65-3000.app.github.dev/6');
         if (APIResponse.status == 200){
         
             const data = await APIResponse.json();
@@ -145,7 +145,7 @@ btnGambit.addEventListener('click', async () => {
 
 btnJubilee.addEventListener('click', async () => {
     try {
-        const APIResponse = await fetch('http://localhost:3000/7');
+        const APIResponse = await fetch('https://super-space-tribble-g479vw45699cp65-3000.app.github.dev/7');
         if (APIResponse.status == 200){
         
             const data = await APIResponse.json();
@@ -165,7 +165,7 @@ btnJubilee.addEventListener('click', async () => {
 
 btnJean.addEventListener('click', async () => {
     try {
-        const APIResponse = await fetch('http://localhost:3000/8');
+        const APIResponse = await fetch('https://super-space-tribble-g479vw45699cp65-3000.app.github.dev/8');
         if (APIResponse.status == 200){
         
             const data = await APIResponse.json();
@@ -185,7 +185,7 @@ btnJean.addEventListener('click', async () => {
 
 btnMorph.addEventListener('click', async () => {
     try {
-        const APIResponse = await fetch('http://localhost:3000/9');
+        const APIResponse = await fetch('https://super-space-tribble-g479vw45699cp65-3000.app.github.dev/9');
         if (APIResponse.status == 200){
         
             const data = await APIResponse.json();
@@ -205,7 +205,7 @@ btnMorph.addEventListener('click', async () => {
 
 btnMagneto.addEventListener('click', async () => {
     try {
-        const APIResponse = await fetch('http://localhost:3000/10');
+        const APIResponse = await fetch('https://super-space-tribble-g479vw45699cp65-3000.app.github.dev/10');
         if (APIResponse.status == 200){
         
             const data = await APIResponse.json();
