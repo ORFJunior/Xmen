@@ -23,7 +23,7 @@ const btnMagneto = document.querySelector('.button-magneto');
 btnCyclops.addEventListener('click', async() => {
     try {
         
-        const APIResponse = await fetch(`https://super-space-tribble-g479vw45699cp65-3000.app.github.dev/1`);
+        const APIResponse = await fetch('https://super-space-tribble-g479vw45699cp65-3000.app.github.dev/1');
         
         if (APIResponse.status == 200){
         
@@ -65,7 +65,7 @@ btnWolverine.addEventListener('click', async () => {
 
 btnRouge.addEventListener('click', async () => {
     try {
-        const APIResponse = await fetch('https://super-space-tribble-g479vw45699cp65-3000.app.github.dev/3');
+        const APIResponse = await fetch('xxxxxxxxxxxxxxxx');
         if (APIResponse.status == 200){
         
             const data = await APIResponse.json();
